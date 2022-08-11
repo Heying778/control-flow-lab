@@ -36,6 +36,6 @@ public class WhatToWear {
                 break;
         }
 
-        System.out.println("Your suggest is" + tempSuggestion + weather);
+        System.out.println("Your suggest is" + tempSuggestion + weatherSuggestion);
     }
 }
