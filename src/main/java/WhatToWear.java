@@ -5,11 +5,12 @@ public class WhatToWear {
 
 
         System.out.println("Please tell the temperature and the weather, I will guide you what to wear:)");
-        Scanner reader = new Scanner(System.in);
         System.out.println("Please input your temperature:");
         int temperature = reader.nextInt();
+        reader.nextLine();
         System.out.println("Please input your weather:");
         String weather = reader.nextLine();
+
         String tempSuggestion = "";
         String weatherSuggestion = "";
 
@@ -36,6 +37,6 @@ public class WhatToWear {
                 break;
         }
 
-        System.out.println("Your suggest is" + tempSuggestion + weatherSuggestion);
+        System.out.println("Your suggest is  " + tempSuggestion + weatherSuggestion);
     }
 }
